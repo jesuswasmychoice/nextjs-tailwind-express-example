@@ -1,0 +1,30 @@
+{
+  "name": "nextjs-tailwind-express-example",
+  "version": "1.0.0",
+  "description": "Next.js + Tailwind + Express example project.",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "npx tailwindcss -i src/public/css/tailwind.css -o src/public/css/style.css --minify",
+    "watch": "npx tailwindcss -i src/public/css/tailwind.css -o src/public/css/style.css -w --minify",
+    "test": "node src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesuswasmychoice/nextjs-tailwind-express-example"
+  },
+  "keywords": [
+    "express",
+    "nextjs",
+    "next.js",
+    "tailwind"
+  ],
+  "author": "jesuswasmychoice",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "next": "^12.0.3",
+    "tailwindcss": "^2.2.19"
+  }
+}
